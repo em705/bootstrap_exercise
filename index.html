@@ -2,41 +2,48 @@
 <html>
 <head>
   <title>Sam's Sarnies</title>
-
+  <link href = 'bootstrap-3.3.7-dist/css/bootstrap.css'   rel = 'stylesheet'>
+  <meta name = "viewport"   content = "width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <div class='jumbotron'>
+  <div class = "container">
 
-    <h1>Healthy sandwiches for your team</h1>
+    <div class='jumbotron'>
 
-    <img src='images/sandwich.png'>
+      <h1>Healthy sandwiches for your team</h1>
 
-    <form role='form'>
-      <label for="email">Find out more</label>
-      <input type="text" name="email" >
-      <button type="submit">Send</button>
-    </form>
-  </div>
+      <img src='images/sandwich.png'>
 
-  <div id="buzz">
-    <h2><small>The Buzz</small><br />What are people saying?</h2>
-    <div>
-      <img src='images/person.jpg'>
-      <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
-      <small>Mr Smith, Professional sandwich taster</small>
+      <form role='form'>
+        <label for="email">Find out more</label>
+        <input type="text" name="email" >
+        <button type="submit">Send</button>
+      </form>
     </div>
-    <div>
-      <img src='images/person.jpg'>
-      <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
-      <small>Miss McAdam, CEO Workplace Analytics</small>
+    <div id="buzz">
+      <h2><small>The Buzz</small><br />What are people saying?</h2>
     </div>
+    <div class = 'row'>
+      <div class = 'col-sm-4'>
+        <img src='images/person.jpg'>
+        <p>These sandwiches are the best I've ever tasted, for sure. I now eat them every day - breakfast, lunch and dinner.</p>
+        <small>Mr Smith, Professional sandwich taster</small>
+      </div>
     <div>
-      <img src='images/person.jpg'>
-      <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
-    </div> 
-  </div>
-
+      <div class = 'col-sm-4'>
+        <img src='images/person.jpg'>
+        <p>My team are always far more productive after we order from Sam's. 40% more productive, in fact.</p>
+        <small>Miss McAdam, CEO Workplace Analytics</small>
+      </div>
+      <div>
+        <div class = 'col-sm-4'>
+          <img src='images/person.jpg'>
+          <p>We switched to Sam's Sarnies and won our first government contract the next day. Coincidence? I think not!</p>
+        </div>
+      </div>
+    </div>
+    </div>
 
 
   <div id="mission">
@@ -52,8 +59,7 @@
       <button class='btn-pinterest'>Pinterest</button>
     </div>
   </div>
-
-
+  </div>
 </body>
 
 
